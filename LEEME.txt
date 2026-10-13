@@ -1,0 +1,21 @@
+PLANOS DE SIEMBRA - VERSION 5
+
+Arriba de la pantalla tiene que decir "Version 5.0". Si no lo dice, estas abriendo una copia vieja.
+
+USARLA EN TU COMPUTADORA
+1) Descomprimi la carpeta y hace doble clic en INICIAR.bat (necesita internet para el mapa de fondo).
+2) Subi el KMZ del lote: se ve sobre el mapa satelital (o calles), alineado con el lugar real.
+3) Completa los datos del ensayo (el TIPO es libre) y toca "Agregar al lote".
+4) Arrastra el ensayo a su lugar y giralo (panel "Girar ensayo", circulo naranja o "Alinear" con un lado del lote).
+5) Cada ensayo muestra su SENTIDO DE SIEMBRA:
+   - una X marca la parcela 1 (abajo a la izquierda: entrada 1, tablon 1),
+   - la flecha -> muestra las entradas, de izquierda a derecha (E1 a En),
+   - la flecha ^ (hacia arriba) muestra los tablones, de abajo hacia arriba (T1 a Tn).
+   Las flechas giran junto con el ensayo. Se ven en el mapa, en el Excel y en Google Earth.
+6) Exportar: Excel (resumen + ficha con foto de cada ensayo) y KMZ para Google Earth.
+
+PUBLICARLA PARA TUS COMPANEROS
+Lee GUIA_PUBLICAR.md (paso a paso, con las decisiones que hay que tomar antes: acceso, datos y satelite).
+
+Los archivos .py, requirements.txt y la carpeta "fuentes" tienen que estar juntos en la misma carpeta.
+Sin Windows: python -m pip install -r requirements.txt   y   python -m streamlit run app.py
